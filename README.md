@@ -64,6 +64,8 @@
 			- 색인 과정이 끝난 문서를 색인에 추가
 
 		
+
+
 		* Lucene는 색인파일을 만들기 위해서 IndexWriter를 제공한다.
 
 	- Searching
@@ -93,7 +95,7 @@
 	1. Lire Demo 다운로드
 	2. Lire Demo 실행
 
-		' java -jar liredemo.jar '
+		''' java -jar liredemo.jar '''
 
 		<img src = "./img/liredemo.png">
 
