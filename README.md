@@ -25,7 +25,7 @@
 
 
 		3. 색인 할 txt file 을 Doc 파일에 생성
-		- ex) NOTICE.txt, README.txt
+			- ex) NOTICE.txt, README.txt
 
 		4.  Index 생성
 
