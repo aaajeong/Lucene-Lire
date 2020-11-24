@@ -9,25 +9,25 @@
 	  - 다운로드: https://lucene.apache.org/
       
  2.  Demo Example
-1. jar 파일 4개 Lucene 폴더에 복사
-	- lucene-queryparser-8.7.0.jar
-	- lucene-analyzers-common-8.7.0.jar
-	- lucene-core-8.7.0.jar
-    - lucene-demo-8.7.0.jar
+	1. jar 파일 4개 Lucene 폴더에 복사
+		- lucene-queryparser-8.7.0.jar
+		- lucene-analyzers-common-8.7.0.jar
+		- lucene-core-8.7.0.jar
+		- lucene-demo-8.7.0.jar
 
-2. jar 압축 풀기 (4개 다)
+	2. jar 압축 풀기 (4개 다)
 
 		`jar xvf {파일명}.jar`
 	
-    - ex) jar xvf lucene-demo-8.7.0.jar
-    - Lucene 폴더에 org, META-INF 폴더 생성됨
-    <img src = "../img/jar.png">
+	    - ex) jar xvf lucene-demo-8.7.0.jar
+	    - Lucene 폴더에 org, META-INF 폴더 생성됨
+	    <img src = "../img/jar.png">
     
 
-3. 색인 할 txt file 을 Doc 파일에 생성
+	3. 색인 할 txt file 을 Doc 파일에 생성
 	- ex) NOTICE.txt, README.txt
 	
-4.  Index 생성
+	4.  Index 생성
 	
 		    java org.apache.lucene.demo.IndexFiles -docs Doc(색인할 문서가 있는 폴더)
 
@@ -35,9 +35,9 @@
 		<img src = "../img/index2.png">
 		
 
-5.  검색
-	     ` java org.apache.lucene.demo.SearchFiles`
-    - 검색할 string 입력
-		 <img src = "../img/search.png">
+	5.  검색
+		     ` java org.apache.lucene.demo.SearchFiles`
+	    - 검색할 string 입력
+			 <img src = "../img/search.png">
  
  
