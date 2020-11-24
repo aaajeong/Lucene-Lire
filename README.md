@@ -21,7 +21,7 @@
 
 		    - ex) jar xvf lucene-demo-8.7.0.jar
 		    - Lucene 폴더에 org, META-INF 폴더 생성됨
-		    <img src = "../img/jar.png">
+		    <img src = "./img/jar.png">
 
 
 		3. 색인 할 txt file 을 Doc 파일에 생성
@@ -31,13 +31,13 @@
 
 			    java org.apache.lucene.demo.IndexFiles -docs Doc(색인할 문서가 있는 폴더)
 
-			<img src = "../img/index.png">
-			<img src = "../img/index2.png">
+			<img src = "./img/index.png">
+			<img src = "./img/index2.png">
 
 
 		5.  검색
 			     ` java org.apache.lucene.demo.SearchFiles`
 		    - 검색할 string 입력
-				 <img src = "../img/search.png">
+				 <img src = "./img/search.png">
  
  
