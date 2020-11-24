@@ -77,3 +77,45 @@
 			
  
  
+---
+---
+#### Lire(리레)
+
+
+1. Lire(리레) 란?
+	- Lucene Image Retrieval의 약자로 Lucene(루신) 기반의 이미지 검색 Java 라이브러리.
+	- 색감 및 질감 특성을 기반으로 한 이미지와 사진을 검색
+	- 다운로드: http://www.semanticmetadata.net/lire/
+
+2. Lire Demo Test
+	1. Lire Demo 다운로드
+	2. Lire Demo 실행
+
+	' java -jar liredemo.jar'
+
+	<img src = "./img/liredemo.png">
+
+	3. Index 할 이미지 파일 선택
+		- Open dir 선택
+		- image 담겨있는 파일 선택
+		- "add to exiting index" 체크
+		- "Start" 
+
+		<img src = "./img/liredemo2.png">
+		<img src = "./img/liredemo3.png">
+		<img src = "./img/indexfile.png">
+	
+	4. 이미지 Search
+		- 'Search' 선택
+		- Open image 선택
+		- img file 1개 선택
+		<img src = "./img/result">
+		
+	* View 에서 IndexSearcher, Re-ranking feature 을 선택할 수 있다.
+	<img src = "./img/option1">
+	<img src = "./img/option2">
+
+	* 참고
+		https://github.com/Youngmi-Park/Lucene
+		http://wittgena.blogspot.com/2011/07/lire-lucene-image-retrieval-library.html
+		https://www.youtube.com/watch?v=hPpDU19UbPw
