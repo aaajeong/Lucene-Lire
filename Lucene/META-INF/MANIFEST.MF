@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.14
+Created-By: 1.8.0_242-b08 (AdoptOpenJDK)
+Extension-Name: org.apache.lucene
+Specification-Title: Lucene Search Engine: queryparser
+Specification-Version: 8.7.0
+Specification-Vendor: The Apache Software Foundation
+Implementation-Title: org.apache.lucene
+Implementation-Version: 8.7.0 2dc63e901c60cda27ef3b744bc554f1481b3b067
+  - atrisharma - 2020-10-29 19:36:09
+Implementation-Vendor: The Apache Software Foundation
+X-Compile-Source-JDK: 8
+X-Compile-Target-JDK: 8
+
