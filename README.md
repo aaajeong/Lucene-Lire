@@ -1,6 +1,6 @@
 # **Lucene & Lire**
 ---
-#### Lucene(루씬)
+### Lucene(루씬)
 
  1. Lucene(루씬) 이란?
 	  - 자바로 개발된 오픈소스 정보검색 라이브러리 (검색 애플리케이션이 아니다.)
@@ -17,7 +17,7 @@
 
 		2. jar 압축 풀기 (4개 다)
 
-			`jar xvf {파일명}.jar`
+			` jar xvf {파일명}.jar `
 
 		    - ex) jar xvf lucene-demo-8.7.0.jar
 		    - Lucene 폴더에 org, META-INF 폴더 생성됨
@@ -36,13 +36,16 @@
 
 
 		5.  검색
+
 			     ` java org.apache.lucene.demo.SearchFiles`
+
 		    - 검색할 string 입력
 
 				 <img src = "./img/search.png">
 
  3. Lucene의 Index, Search 살펴보기
 	- Indexing 이란?
+
 		문서 전체를 두고 검색을 하기위해서는 모든 문서를 대상으로 하나씩 단어나 구문을 찾아야한다. 문서의 양이 많아지고 한 문서의 크기가 커질수록 속도는 느려진다. 원문에서 단어를 추출하고 검색하기 좋은 형태의 문서로 만들어 리스트화 해두면 특정 단어의 위치로 바로 이동할 수 있다.
 	
 	- Indexing 과정
@@ -61,7 +64,7 @@
 			- 색인 과정이 끝난 문서를 색인에 추가
 
 		
-		Lucene는 색인파일을 만들기 위해서 IndexWriter를 제공한다.
+		* Lucene는 색인파일을 만들기 위해서 IndexWriter를 제공한다.
 
 	- Searching
 		1.	검색을 하기 위해서 색인 파일의 경로를 알아낸다.
@@ -78,8 +81,7 @@
  
  
 ---
----
-#### Lire(리레)
+### Lire(리레)
 
 
 1. Lire(리레) 란?
@@ -91,9 +93,9 @@
 	1. Lire Demo 다운로드
 	2. Lire Demo 실행
 
-	' java -jar liredemo.jar'
+		' java -jar liredemo.jar '
 
-	<img src = "./img/liredemo.png">
+		<img src = "./img/liredemo.png">
 
 	3. Index 할 이미지 파일 선택
 		- Open dir 선택
@@ -109,11 +111,11 @@
 		- 'Search' 선택
 		- Open image 선택
 		- img file 1개 선택
-		<img src = "./img/result">
+		<img src = "./img/result.png">
 		
 	* View 에서 IndexSearcher, Re-ranking feature 을 선택할 수 있다.
-	<img src = "./img/option1">
-	<img src = "./img/option2">
+		<img src = "./img/option1.png">
+		<img src = "./img/option2.png">
 
 	* 참고
 		https://github.com/Youngmi-Park/Lucene
